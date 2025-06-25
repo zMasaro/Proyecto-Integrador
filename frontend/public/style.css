@@ -1,0 +1,62 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.topBar {
+    background-color: green;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.mainContent {
+    display: flex;
+}
+
+.products {
+    background-color: white;
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1rem;
+}
+
+.filtro {
+    background-color: grey;
+    width: 250px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;    
+    gap: 0.5rem;
+}
+
+.product-card {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 400px;
+}
+
+.filters {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    height: 400px;
+}
+    */
+    
