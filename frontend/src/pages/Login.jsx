@@ -1,9 +1,12 @@
 import CustomButton from "../components/CustomButton";
+import "../styles/Login.css";
+import InjaconBlanco from "../img/InjaconBlanco.jpg";
 
 function Login() {
   return (
-    <div>
-      <h2>Iniciar Sesión</h2>
+    <div className="login-container">
+      <img src={InjaconBlanco} alt="Injacom Logo" />
+      <h3>Iniciar Sesión</h3>
       <form>
         <input
           type="email"
@@ -22,7 +25,6 @@ function Login() {
           type="submit"
           id="save-button"
         />
-
       </form>
     </div>
   );
